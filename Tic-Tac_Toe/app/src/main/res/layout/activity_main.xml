@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Welcome to my Game Space\nWith love ❤️ Code Nikhil"
+        android:textColor="#F1DB1E"
+        android:textSize="20sp"
+        android:layout_marginBottom="570dp"
+        android:layout_marginLeft="6dp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_marginTop="250dp">
+
+        <Button
+            android:id="@+id/btn1"
+            android:onClick="Check"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"
+            android:onClick="Check"/>
+        <Button
+            android:id="@+id/btn3"
+            android:onClick="Check"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"/>
+        <Button
+            android:id="@+id/btn4"
+            android:onClick="Check"
+            android:layout_marginBottom="15dp"/>
+        <Button
+            android:id="@+id/btn5"
+            android:onClick="Check"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"/>
+        <Button
+            android:id="@+id/btn6"
+            android:onClick="Check"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp" />
+        <Button
+            android:id="@+id/btn7"
+            android:onClick="Check"
+            android:layout_marginBottom="15dp"/>
+        <Button
+            android:id="@+id/btn8"
+            android:onClick="Check"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"/>
+        <Button
+            android:id="@+id/btn9"
+            android:onClick="Check"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"/>
+
+    </GridLayout>
+
+</RelativeLayout>
