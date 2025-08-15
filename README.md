@@ -39,7 +39,6 @@ app/
         layout/activity_main.xml
         drawable/bg.xml
 ```
-> Note: This is a minimal, focused repo showing the core gameplay and UI. You can drop these files into a fresh Android Studio project, or replace your existing files to test quickly.
 
 ---
 
@@ -50,14 +49,6 @@ app/
 4. Run the app on an emulator or physical device.
 
 ---
-
-## 📸 Demo Caption (for LinkedIn)
-> 🕹️🌟 **From Code to Play – My Own Tic Tac Toe Game!**  
-> Built from scratch with **Java + XML**. Smooth gameplay, instant winner detection, and a clean UI.  
-> **Why I built this:** to sharpen Android dev skills and craft a fun project.  
-> **What’s next:** score tracking, SFX, animations, and online 2P.  
-> #AndroidDevelopment #JavaProgramming #GameDev #TicTacToe #AppDev #CodingJourney
-
 ---
 
 ## 📜 License
